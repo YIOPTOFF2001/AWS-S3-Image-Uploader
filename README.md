@@ -4,13 +4,13 @@ This project is a full-stack web application built with Spring Boot and React.js
 
 ## Features
 
-1. Upload images and files directly to an AWS S3 bucket.
+Upload images and files directly to an AWS S3 bucket.
 
-2. Retrieve and display uploaded files dynamically.
+Retrieve and display uploaded files dynamically.
 
-3. Handles file validation and error management.
+Handles file validation and error management.
 
-4. Full-stack integration: Spring Boot backend + React.js frontend.
+Full-stack integration: Spring Boot backend + React.js frontend.
 
 ## Technologies Used
 
@@ -28,7 +28,7 @@ Database: PostgreSQL, MySQL
 Docker – a platform that allows you to package applications and their dependencies into portable containers, ensuring they run consistently across different environments.
 
 
-# # Project Structure
+## Project Structure
 
 backend/ → Spring Boot backend with S3 service integration.
 
