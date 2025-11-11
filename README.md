@@ -2,7 +2,7 @@
 
 This project is a full-stack web application built with Spring Boot and React.js that allows users to upload files to Amazon S3 with ease. It demonstrates how to integrate a modern frontend with a robust backend, while securely handling file uploads to cloud storage.
 
-# # Features
+## Features
 
 1. Upload images and files directly to an AWS S3 bucket.
 
@@ -12,7 +12,7 @@ This project is a full-stack web application built with Spring Boot and React.js
 
 4. Full-stack integration: Spring Boot backend + React.js frontend.
 
-# # Technologies Used
+## Technologies Used
 
 
 Backend: Java, Spring Boot, Spring Data JPA, Maven
