@@ -1,30 +1,36 @@
-# Full Stack Professional
+# AWS S3 Image Uploader - Full Stack Spring Boot + React App
 
-Enrol [here](https://amigoscode.com/courses/full-stack-professional) with over *50 Hours* of Content with Plenty of Exercises
+This project is a full-stack web application built with Spring Boot and React.js that allows users to upload files to Amazon S3 with ease. It demonstrates how to integrate a modern frontend with a robust backend, while securely handling file uploads to cloud storage.
 
-![Curriculum](https://user-images.githubusercontent.com/40702606/228275106-73076517-ff4f-40e0-a993-4d05d5a2ea77.png)
+# # Features
 
-Are you ready to level up your coding skills and become a full stack professional? Our new 50+ hours course is designed to equip you with the latest tools and techniques to build impressive, full stack applications that will impress the users and your team.
+1. Upload images and files directly to an AWS S3 bucket.
 
-Over the next three months you will learn how to craft stunning, responsive front-end interfaces that flawlessly communicate with robust, scalable back-end servers, all with the use of industry-standard technologies such as:
+2. Retrieve and display uploaded files dynamically.
 
-- ✅ Spring Boot 3
-- ✅ HTTP & API development
-- ✅ Developer tools for maximum productivity
-- ✅ Robust error handling techniques
-- ✅ Databases & PostgreSQL
-- ✅ Spring Data JPA
-- ✅ Flyway for seamless database migrations
-- ✅ JDBC for efficient database communication
-- ✅ Testing strategies for robust, reliable code
-- ✅ Docker for containerization and deployment
-- ✅ AWS for cloud-based hosting and scaling
-- ✅ DevOps best practices for agile, collaborative development
-- ✅ JavaScript and React for front-end development
-- ✅ Spring Security 6 for secure, authenticated applications
-- ✅ Login/Registration systems for user management
-- ✅ TypeScript for type-safe, scalable code
-- ✅ Angular for powerful, responsive front-end interfaces
+3. Handles file validation and error management.
 
-🎁 Bonus 6-Month IntelliJ IDEA Ultimate license worth 117.83$
+4. Full-stack integration: Spring Boot backend + React.js frontend.
+
+# # Technologies Used
+
+
+Backend: Java, Spring Boot, Spring Data JPA, Maven
+
+Frontend: React.js
+
+Cloud Storage: Amazon S3
+
+IDE: IntelliJ IDEA
+
+Database: PostgreSQL, MySQL
+
+Docker – a platform that allows you to package applications and their dependencies into portable containers, ensuring they run consistently across different environments.
+
+
+# # Project Structure
+
+backend/ → Spring Boot backend with S3 service integration.
+
+frontend/ → React.js frontend for file upload interface.
 
