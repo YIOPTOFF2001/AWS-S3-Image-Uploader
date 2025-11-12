@@ -1,6 +1,6 @@
 # AWS S3 Image Uploader - Full Stack Spring Boot + React App
 
-![Project Diagram](images.png)
+![Project Diagram](Images/image.png)
 
 
 This project is a full-stack web application built with Spring Boot and React.js that allows users to upload files to Amazon S3 with ease. It demonstrates how to integrate a modern frontend with a robust backend, while securely handling file uploads to cloud storage.
