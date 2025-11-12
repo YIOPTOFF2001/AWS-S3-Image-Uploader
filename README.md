@@ -38,14 +38,16 @@ Database: PostgreSQL, MySQL
 
 Infrastructure: Docker
 
-## Quick Start
-
-Follow these steps to run the project locally:
-
 
 ## Project Structure
 
 backend/ → Spring Boot backend with S3 service integration.
 
 frontend/ → React.js frontend for file upload interface.
+
+## Quick Start
+
+Follow these steps to run the project locally:
+
+
 
