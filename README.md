@@ -50,7 +50,7 @@ frontend/ → React.js frontend for file upload interface.
 Follow these steps to run the project locally:
 
 ### 1. Clone the repository
-On your terminal, clone the repository: git clone https://github.com/YIOPTOFF2001/AWS-S3-Image-Uploader.git
+On your terminal, clone the repository:```git clone https://github.com/YIOPTOFF2001/AWS-S3-Image-Uploader.git```
 
 
 
