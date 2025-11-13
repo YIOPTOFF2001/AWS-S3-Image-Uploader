@@ -98,7 +98,7 @@ The frontend is up and running:
 - To login: Enter the email address on main.java file. In this case, the email is : ```jerome.berge@amigoscode.com```
 - Password is always: ```password```
 
-<u> Csutomers can be deleted and added! </u>
+## <u> Csutomers can be deleted and added! </u>
 
 
 ![Uploading](Images/delete.png)
