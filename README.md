@@ -52,5 +52,10 @@ Follow these steps to run the project locally:
 ### 1. Clone the repository
 On your terminal, clone the repository:```git clone https://github.com/YIOPTOFF2001/AWS-S3-Image-Uploader.git```
 
+### 2.  Set up your enviroment with Docker
+Download the Docker app on your desktop and complete the following tasks:
+
+### Confirm that docker is installed by entering the following code on your terminal.
+
 
 
