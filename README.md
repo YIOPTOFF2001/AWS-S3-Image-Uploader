@@ -1,4 +1,4 @@
-# AWS S3 Image Uploader - Full Stack Spring Boot + React App
+<img width="1904" height="875" alt="image" src="https://github.com/user-attachments/assets/e7a66fd2-2438-4b5a-bc75-05f62c448ca9" /># AWS S3 Image Uploader - Full Stack Spring Boot + React App
 
 ![Project Diagram](Images/image.png)
 
@@ -93,6 +93,9 @@ Run the main.java file on InteliJ. The output must be a customer email address
 The frontend is up and running: 
 
 ![Project Diagram](npm.png)
+
+![Uploading](Images/up.png)
+
 
 
 
