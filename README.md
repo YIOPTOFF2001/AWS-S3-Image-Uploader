@@ -84,11 +84,11 @@ Run the main.java file on InteliJ. The output must be a customer email address
 
 ### 4. Get the frontend up and running with Node.js
 
-Navigate to the frontend with the command: ``` cd frontend/react```
+- Navigate to the frontend with the command: ``` cd frontend/react```
 
-Install all dependencies with the command: ``` npm install``` on your terminal
+- Install all dependencies with the command: ``` npm install``` on your terminal
 
-Run the npm frontend with the command: ```npm run dev```
+- Run the npm frontend with the command: ```npm run dev```
 
 The frontend is up and running: 
 
