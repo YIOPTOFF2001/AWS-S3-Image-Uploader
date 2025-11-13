@@ -57,5 +57,12 @@ Download the Docker app on your desktop and complete the following tasks:
 
 ### Confirm that docker is installed by entering the following code on your terminal.
 
+![Project Diagram](Images/CheckDocker.png)
+
+The Docker container should be up and running
+![Project Diagram](Images/gettingstarted.png)
+
+
+
 
 
