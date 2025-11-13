@@ -65,6 +65,8 @@ The Docker container should be up and running
 ### 3. Get the database up and running with Docker
 On the terminal, get the database container running by entering the following commands:
 
+Note: I have saved the file name from full-stack-professional to AWS-S3-Image-Uploader
+
 ![Project Diagram](Images/ls.png)
 
 ![Project Diagram](Images/running.png)
