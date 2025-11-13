@@ -55,12 +55,16 @@ On your terminal, clone the repository:```git clone https://github.com/YIOPTOFF2
 ### 2.  Set up your enviroment with Docker
 Download the Docker app on your desktop and complete the following tasks:
 
-### Confirm that docker is installed by entering the following code on your terminal.
+#### Confirm that docker is installed by entering the following code on your terminal.
 
 ![Project Diagram](Images/CheckDocker.png)
 
 The Docker container should be up and running
 ![Project Diagram](Images/gettingstarted.png)
+
+### 3. Get the database up and running with Docker
+On the terminal, get the database container running by entering the following commands:
+
 
 
 
