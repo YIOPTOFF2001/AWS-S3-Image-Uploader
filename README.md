@@ -65,7 +65,11 @@ The Docker container should be up and running
 ### 3. Get the database up and running with Docker
 On the terminal, get the database container running by entering the following commands:
 
+![Project Diagram](Images/ls.png)
 
+![Project Diagram](Images/running.png)
+
+![Project Diagram](Images/running2.png)
 
 
 
