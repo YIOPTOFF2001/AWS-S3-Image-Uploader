@@ -74,7 +74,7 @@ Note: I have saved the file name from full-stack-professional to AWS-S3-Image-Up
 ![Project Diagram](Images/running2.png)
 
 Connect to the prostgre file using the following command
-![Project Diagram](Images/connect.png)
+![Project Diagram](connect.png)
 
 Run the main.java file. The output must be a customer email address
 ![Project Diagram](Images/java.png)
