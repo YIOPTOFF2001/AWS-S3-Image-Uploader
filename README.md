@@ -73,10 +73,11 @@ Note: I have saved the file name from full-stack-professional to AWS-S3-Image-Up
 
 ![Project Diagram](Images/running2.png)
 
-Connect to the prostgre file using the following command
+Connect to the postgres file using the following command
+
 ![Project Diagram](connect.png)
 
-Run the main.java file. The output must be a customer email address
+Run the main.java file on InteliJ. The output must be a customer email address
 ![Project Diagram](Images/java.png)
 
 
