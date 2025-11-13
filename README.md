@@ -62,7 +62,8 @@ Download the Docker app on your desktop and complete the following tasks:
 The Docker container should be up and running
 ![Project Diagram](Images/gettingstarted.png)
 
-### 3. Get the database up and running with Docker
+### 3. Get the backend up and running with Docker
+
 On the terminal, get the database container running by entering the following commands:
 
 Note: I have saved the file name from full-stack-professional to AWS-S3-Image-Uploader
@@ -78,7 +79,14 @@ Connect to the postgres file using the following command
 ![Project Diagram](connect.png)
 
 Run the main.java file on InteliJ. The output must be a customer email address
+
 ![Project Diagram](Images/java.png)
+
+### 4. Get the frontend up and running with Node.js
+
+Navigate to the frontend with the command: ``` cd frontend/react```
+Install all dependencies with the command: ``` npm install``` on your terminal
+Run the npm frontend with the command: ```npm run dev```
 
 
 
