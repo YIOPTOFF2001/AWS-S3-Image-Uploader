@@ -103,7 +103,11 @@ Csutomers can be deleted and added!
 
 ![Uploading](Images/delete.png)
 
+Delete customer
+
 ![Uploading](Images/add.png)
+
+Add a new customer
 
 
 
