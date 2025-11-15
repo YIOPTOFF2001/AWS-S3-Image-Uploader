@@ -112,7 +112,7 @@ Add a new customer
 ### 4. Setting up AWS bucket and security credentials 
 - Create a folder with a file called 'credentials'
 - Create the security credentials on you AWS console account and paste the access key and secret access key on VIM editor (local machine).
-
+- Create an S3 bucket
 
 
 
