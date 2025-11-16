@@ -177,3 +177,6 @@ The image Id is stored in the AWS S3 bucket
 This mapping creates a REST endpoint that listens for GET requests at the route /{customerId}/profile-image. When the frontend makes a request to this URL, the backend retrieves the stored JPEG image associated with the specified customer and returns it as raw binary image data. By explicitly setting produces = MediaType.IMAGE_JPEG_VALUE, the server signals to the browser that the response is a JPEG file rather than JSON or plain text. This ensures that the client can render the image immediately, which is essential for displaying profile pictures in the user interface.
 
 ![Project Diagram](Images/mess.png)
+
+## Conclusion
+This project is a Spring Boot application that enables secure upload and retrieval of customer profile images, storing all images in AWS S3. Users can drag and drop images via a React frontend, which are then uploaded to the backend and immediately available for display. Challenges included integrating frontend uploads with the backend API, configuring S3 securely, and ensuring images rendered correctly in the browser. Through this project, I strengthened my skills in Spring Boot, React, REST APIs, file handling, and cloud storage integration, while building a modular, scalable, and user-friendly solution.
