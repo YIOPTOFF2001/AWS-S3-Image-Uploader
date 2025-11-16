@@ -114,6 +114,25 @@ Add a new customer
 - Create the security credentials on you AWS console account and paste the access key and secret access key on VIM editor (local machine).
 - Create an S3 bucket
 
+### 5. Storage
+```export const uploadCustomerProfilePicture = async (id, formData) => {
+    try {
+        return axios.post(
+            `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`,
+            formData,
+            {
+                ...getAuthConfig(),
+                'Content-Type' : 'multipart/form-data'
+            }
+        );
+    } catch (e) {
+        throw e;
+    }
+}
+
+export const customerProfilePictureUrl = (id) =>
+    `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`;```
+
 
 
 
