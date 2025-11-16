@@ -116,6 +116,10 @@ Add a new customer
 
 
 ### 5. App features
+Update Customer profile images
+
+![Project Diagram](before.png)
+Before
 ### 5. Storage
 
 ```
