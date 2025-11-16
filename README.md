@@ -125,10 +125,12 @@ Before
 After
 
 ![Project Diagram](Images/screen.png)
-Upload Image feature
+Update customer feature
+
 
 ![Project Diagram](Images/screen1.png)
 Drag and drop image
+
 
 ![Project Diagram](Images/screen2.png)
 Confirmation text
