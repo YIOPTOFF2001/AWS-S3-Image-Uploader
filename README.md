@@ -166,10 +166,14 @@ To complement the upload functionality, I created a helper called customerProfil
 The image Id is stored in the AWS S3 bucket
 
 
-### 123
+### 6. Interface
 ```
 @GetMapping(
             value = "{customerId}/profile-image",
             produces = MediaType.IMAGE_JPEG_VALUE
     )
 ```
+
+This mapping creates a REST endpoint that listens for GET requests at the route /{customerId}/profile-image. When the frontend makes a request to this URL, the backend retrieves the stored JPEG image associated with the specified customer and returns it as raw binary image data. By explicitly setting produces = MediaType.IMAGE_JPEG_VALUE, the server signals to the browser that the response is a JPEG file rather than JSON or plain text. This ensures that the client can render the image immediately, which is essential for displaying profile pictures in the user interface.
+
+![Project Diagram](Images/mess.png)
