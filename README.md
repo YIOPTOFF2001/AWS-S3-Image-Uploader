@@ -162,6 +162,10 @@ In this feature, I implemented a client-side utility that handles uploading and 
 To complement the upload functionality, I created a helper called customerProfilePictureUrl, which dynamically generates the exact URL where the customer’s image is served from. This makes it easy for the frontend to display the user’s profile picture by simply pointing an <img> tag or avatar component to the generated URL.
 
 
+![Project Diagram](Images/database.png)
+The image Id is stored in the AWS S3 bucket
+
+
 ### 123
 ```
 @GetMapping(
