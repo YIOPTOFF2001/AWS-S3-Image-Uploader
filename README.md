@@ -115,7 +115,7 @@ Add a new customer
 - Create an S3 bucket
 
 ### 5. Storage
-```export const uploadCustomerProfilePicture = async (id, formData) => {
+export const uploadCustomerProfilePicture = async (id, formData) => {
     try {
         return axios.post(
             `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`,
@@ -131,7 +131,8 @@ Add a new customer
 }
 
 export const customerProfilePictureUrl = (id) =>
-    `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`;```
+    `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`;
+
 
 
 
