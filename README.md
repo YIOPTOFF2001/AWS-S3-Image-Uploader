@@ -156,6 +156,12 @@ export const uploadCustomerProfilePicture = async (id, formData) => {
 export const customerProfilePictureUrl = (id) =>
     `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`;
 ```
+
+In this feature, I implemented a client-side utility that handles uploading and retrieving customer profile images within a web application. The uploadCustomerProfilePicture function takes a customer ID and a file wrapped inside a FormData object, then sends it to the backend using an authenticated POST request. Because image uploads require a special format, the request is explicitly configured with a multipart/form-data content type. This allows the server to correctly process the binary data and store the image in whatever storage system the backend is configured to use—whether that’s local disk, cloud storage, or a dedicated media server.
+
+To complement the upload functionality, I created a helper called customerProfilePictureUrl, which dynamically generates the exact URL where the customer’s image is served from. This makes it easy for the frontend to display the user’s profile picture by simply pointing an <img> tag or avatar component to the generated URL.
+
+
 ### 123
 ```
 @GetMapping(
