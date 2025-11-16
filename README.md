@@ -137,4 +137,10 @@ export const uploadCustomerProfilePicture = async (id, formData) => {
 export const customerProfilePictureUrl = (id) =>
     `${import.meta.env.VITE_API_BASE_URL}/api/v1/customers/${id}/profile-image`;
 ```
-
+### 123
+```
+@GetMapping(
+            value = "{customerId}/profile-image",
+            produces = MediaType.IMAGE_JPEG_VALUE
+    )
+```
