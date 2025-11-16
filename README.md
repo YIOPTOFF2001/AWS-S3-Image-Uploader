@@ -120,6 +120,9 @@ Update Customer profile images
 
 ![Project Diagram](before.png)
 Before
+
+![Project Diagram](Images/after.png)
+After
 ### 5. Storage
 
 ```
