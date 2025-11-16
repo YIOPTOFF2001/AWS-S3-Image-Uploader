@@ -114,6 +114,8 @@ Add a new customer
 - Create the security credentials on you AWS console account and paste the access key and secret access key on VIM editor (local machine).
 - Create an S3 bucket
 
+
+### 5. App features
 ### 5. Storage
 
 ```
